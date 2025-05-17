@@ -1,0 +1,48 @@
+.App{
+    font-family: sans-serif;
+    text-align: center;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.product-img{
+    width: 200px;
+    height: 200px;
+}
+
+.product-title{
+    text-align: center;
+}
+
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-number{
+    border: 1px solid gray;
+    padding: 5px 7px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.active{
+    background-color: aqua;
+}
